@@ -214,7 +214,7 @@ export default function Home() {
                 {searchResult.name.charAt(0).toUpperCase() + searchResult.name.slice(1)}
               </Typography>
               <Typography variant={'h5'} color={'textPrimary'} textAlign={'center'}>
-                Quantity: {searchResult.quantity}
+                Quantity: {searchResult.quantity} 
               </Typography>
             </Paper>
           )}
